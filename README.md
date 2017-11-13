@@ -1,2 +1,2 @@
 # Rubybot
-http://big.ly/rubybot
+http://bit.ly/rubybot
