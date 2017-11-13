@@ -63,7 +63,7 @@ client.on("message", (message) => {
   if(message.content.startsWith(prefix + 'musicalbird')) { message.channel.send('**<@320654624556056586>** Is one of **<@250756376073207819>** coding friends!'); }
   if(message.content.startsWith(prefix + 'william')) { message.channel.send('**<@174234835479560192>** is Reuben\'s little brother. (...nothing to say)'); }
   if(message.content.startsWith(prefix + 'chip')) { message.channel.send('**<@250756376073207819>** is my dev. He coded all them little functions. If you want all them little functions type `' + prefix + 'help` to see them all!'); }
-  if(message.content.startsWith(prefix + 'tj')) { message.channel.send('**<@250756376073207819>** is my dev. He coded all them little functions. If you want all them little functions type `' + prefix + 'help` to see them all!'); }
+  if(message.content.startsWith(prefix + 'tj')) { message.channel.send('TJ is one of chips friends'); }
   if(message.content.startsWith(prefix + 'talk') && permission() && notRuby()) {
     message.delete();
     var editedMessage = message.content.replace(prefix + 'talk ', '');
