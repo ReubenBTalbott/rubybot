@@ -7,7 +7,7 @@ var invite = {
 var fs = require('fs');
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login("MzQ1MjkwMTQzMTIyNDU2NTg1.D1hkog.wgR9cwtpOb8gU7prG-NbHh1NDnc");
+client.login("Your token here");
 client.on('ready', () => {
   client.user.setPresence({ game: { name: 'r.help | ' + client.guilds.size + ' servers', type: 0 } });
   console.log('Ready');
