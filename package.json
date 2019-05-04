@@ -1,0 +1,19 @@
+{
+  "name": "rubybot",
+  "version": "2.0.0",
+  "description": "A moderation bot for discordapp.com",
+  "main": "rubybot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Reuben Blakely Talbott",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "0.0.2"
+  }
+}
